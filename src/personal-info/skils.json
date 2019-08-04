@@ -1,0 +1,12 @@
+{
+    "circleProgress": [{ "Node.js": "35" }, { "Database (SQL)": "55" }],
+    "straightProgress": [
+      {
+        "HTML5 and CSS3": "65",
+        "Bootstrap 4": "65",
+        "Javascript": "60",
+        "Jquery": "50"
+      }
+    ]
+  }
+  
