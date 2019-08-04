@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import './App.css';
-import ProgressBar from './components/ProgressBar';
-import CircleProgressBar from './components/CircleProgressBar';
+import React, { Component } from "react";
+import "./App.css";
+import ProgressBar from "./components/ProgressBar";
+import CircleProgressBar from "./components/CircleProgressBar";
 
 class App extends Component {
   constructor(props) {
@@ -37,7 +37,6 @@ class App extends Component {
                 <a href="#projects">Projects</a>
               </li>
             </ul>
-
           </div>
         </nav>
         {/*END sidebar */}
@@ -48,11 +47,15 @@ class App extends Component {
           <div className="sticky-top">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
-
-                <button type="button" id="sidebarCollapse" className="navbar-btn" onClick={() => this.toggleSideBar()}>
-                  <span></span>
-                  <span></span>
-                  <span></span>
+                <button
+                  type="button"
+                  id="sidebarCollapse"
+                  className="navbar-btn"
+                  onClick={() => this.toggleSideBar()}
+                >
+                  <span />
+                  <span />
+                  <span />
                 </button>
               </div>
             </nav>
@@ -66,43 +69,80 @@ class App extends Component {
           </div>
           {/* END greeting */}
           {/* START profile */}
-          <div className="container content justify-content-center p-3 rounded-lg bg-white" id="profile" href="#profile">
+          <div
+            className="container content justify-content-center p-3 rounded-lg bg-white"
+            id="profile"
+            href="#profile"
+          >
             <div className="row m-2">
               <div className="col-12 col-md-7 my-3">
                 <h3 className="font-weight-bold">PROFILE</h3>
-                <img src="images/avatar.JPG" className="ava-img img-fluid rounded-lg" alt="My avatar" />
+                <img
+                  src="images/avatar.JPG"
+                  className="ava-img img-fluid rounded-lg"
+                  alt="My avatar"
+                />
               </div>
               <div className="col-12 col-md-5 my-4 border-left">
                 <h6 className="pt-2 text-muted">WELCOME TO MY CV, I'M</h6>
                 <h1 className="mb-3">Hoang Kim Minh</h1>
-                <ul className="list text-muted" style={{ listStyle: "none", fontSize: "1rem" }}>
+                <ul
+                  className="list text-muted"
+                  style={{ listStyle: "none", fontSize: "1rem" }}
+                >
                   <li>
-                    <span href=""><i className="fa fa-calendar mr-4" aria-hidden="true"></i>3th March, 1999</span>
+                    <span href="">
+                      <i className="fa fa-calendar mr-4" aria-hidden="true" />
+                      3th March, 1999
+                    </span>
                   </li>
                   <li>
-                    <span href=""><i className="fa fa-phone mr-4" aria-hidden="true"></i>+84344955825</span>
+                    <span href="">
+                      <i className="fa fa-phone mr-4" aria-hidden="true" />
+                      +84344955825
+                    </span>
                   </li>
                   <li>
-                    <span href=""><i className="fa fa-home mr-4" aria-hidden="true"></i> Minh Hiep 1 village, Minh Khai commune, Hoai Duc district, Hanoi city</span>
+                    <span href="">
+                      <i className="fa fa-home mr-4" aria-hidden="true" /> Minh
+                      Hiep 1 village, Minh Khai commune, Hoai Duc district,
+                      Hanoi city
+                    </span>
                   </li>
                   <li>
-                    <span href=""><i className="fa fa-university mr-4" aria-hidden="true"></i> Student at University of Engineering and Technology, Vietnam National University (VNU)</span>
+                    <span href="">
+                      <i className="fa fa-university mr-4" aria-hidden="true" />{" "}
+                      Student at University of Engineering and Technology,
+                      Vietnam National University (VNU)
+                    </span>
                   </li>
                   <li>
-                    <span href=""><i className="fa fa-smile-o mr-4" aria-hidden="true"></i> Sociable, hardworking, studious, enthusiastic</span>
+                    <span href="">
+                      <i className="fa fa-smile-o mr-4" aria-hidden="true" />{" "}
+                      Sociable, hardworking, studious, enthusiastic
+                    </span>
                   </li>
                   <li>
-                    <span href=""><i className="fa fa-star-half-o mr-4" aria-hidden="true"></i> Learning about technology, science, film, music, cooking,...</span>
+                    <span href="">
+                      <i
+                        className="fa fa-star-half-o mr-4"
+                        aria-hidden="true"
+                      />{" "}
+                      Learning about technology, science, film, music,
+                      cooking,...
+                    </span>
                   </li>
                 </ul>
-
               </div>
             </div>
-
           </div>
           {/* END profile */}
           {/* START achievement */}
-          <div className="container justify-content-center content  p-3 rounded-lg bg-white" id="achievements" href="#achivements">
+          <div
+            className="container justify-content-center content  p-3 rounded-lg bg-white"
+            id="achievements"
+            href="#achivements"
+          >
             <div className="row m-2 my-3">
               <div className="col-12">
                 <h3 className="font-weight-bold">ACHIEVEMENTS</h3>
@@ -112,7 +152,9 @@ class App extends Component {
                   </div>
                   <div className="col-12 col-md-7 border-left">
                     <h5 className="font-weight-bold">Leader of 19Team </h5>
-                    <p className="pl-2 text-muted">In Software Engineering subject at school</p>
+                    <p className="pl-2 text-muted">
+                      In Software Engineering subject at school
+                    </p>
                   </div>
                 </div>
                 <div className="row mb-3">
@@ -121,7 +163,7 @@ class App extends Component {
                   </div>
                   <div className="col-12 col-md-7 border-left">
                     <h5 className="font-weight-bold">Member of Albert Team </h5>
-                    <p className="pl-2 text-muted"></p>
+                    <p className="pl-2 text-muted" />
                   </div>
                 </div>
                 <div className="row mb-3">
@@ -129,8 +171,13 @@ class App extends Component {
                     <h5 className="font-weight-bold">06/2018 - 06/2019</h5>
                   </div>
                   <div className="col-12 col-md-7 border-left">
-                    <h5 className="font-weight-bold">Deputy Head of Content </h5>
-                    <p className="pl-2 text-muted">Public Speaking Club, University of Engineering and Technology</p>
+                    <h5 className="font-weight-bold">
+                      Deputy Head of Content{" "}
+                    </h5>
+                    <p className="pl-2 text-muted">
+                      Public Speaking Club, University of Engineering and
+                      Technology
+                    </p>
                   </div>
                 </div>
 
@@ -140,7 +187,10 @@ class App extends Component {
                   </div>
                   <div className="col-12 col-md-7 border-left">
                     <h5 className="font-weight-bold">President</h5>
-                    <p className="pl-2 text-muted">Public Speaking Club, University of Engineering and Technology</p>
+                    <p className="pl-2 text-muted">
+                      Public Speaking Club, University of Engineering and
+                      Technology
+                    </p>
                   </div>
                 </div>
               </div>
@@ -148,7 +198,11 @@ class App extends Component {
           </div>
           {/* END achievement */}
           {/* START skill */}
-          <div className="container justify-content-center content p-3 rounded-lg bg-white" id="skill" href="#skill">
+          <div
+            className="container justify-content-center content p-3 rounded-lg bg-white"
+            id="skill"
+            href="#skill"
+          >
             <div className="row m-2 my-3">
               <div className="col-12 col-md-5">
                 <h3 className="font-weight-bold">SKILLS</h3>
@@ -157,7 +211,10 @@ class App extends Component {
                     <CircleProgressBar content="Nodejs" percentage="35" />
                   </div>
                   <div className="col-5">
-                    <CircleProgressBar content="Database (SQL)" percentage="55" />
+                    <CircleProgressBar
+                      content="Database (SQL)"
+                      percentage="55"
+                    />
                   </div>
                 </div>
               </div>
@@ -170,6 +227,44 @@ class App extends Component {
             </div>
           </div>
           {/* END skill */}
+          {/* START projects */}
+          <div
+            className="container justify-content-center content p-3 rounded-lg bg-white"
+            id="project"
+            href="#project"
+          >
+            <div className="row m-2 my-3">
+              <div className="col-12">
+                <h3 className="font-weight-bold">PROJECTS</h3>
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <a
+                        data-toggle="collapse"
+                        href="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Collapsible Group Item #1
+                      </a>
+                    </div>
+
+                    <div
+                      id="collapseOne"
+                      class="collapse collapsed"
+                      aria-labelledby="headingOne"
+                      data-parent="#accordionExample"
+                    >
+                      <div class="card-body">
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* END projects */}
         </div>
         {/*END body*/}
       </div>
