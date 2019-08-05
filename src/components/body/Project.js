@@ -12,11 +12,12 @@ const Project = () => {
       <div className="row m-2 my-3">
         <div className="col-12">
           <h3 className="font-weight-bold">PROJECTS</h3>
+          <em>Here are some projects I joined, click for more details</em>
           <div className="accordion" id="accordionExample">
             {projects.map((project, index) => {
               return (
                 <div className="card" key={index}>
-                  <div className="card-header" id={"heading" + index}>
+                  <div className="card-header" id={"heading" + index} style={{ backgroundColor: "#1e5b75", color: "#ffffff" }}>
                     <a
                       data-toggle="collapse"
                       href={"#collapse" + index}
@@ -35,6 +36,9 @@ const Project = () => {
                     <div className="card-body">
                       <h5 className="font-weight-bold">{project.name}</h5>
                       <em>{project.description}</em>
+                      <div className="project-link mt-3">
+                        <h6 className="font-weight-bold">LINK: <a href={project.link}>{project.link}</a></h6>
+                      </div>
                       <div className="project-features mt-3">
                         <h6 className="font-weight-bold">FEATURES</h6>
                         <ul>
@@ -44,8 +48,9 @@ const Project = () => {
                         </ul>
                       </div>
                       <div className="project-images">
-                        <h6 className="font-weight-bold">IMAGES</h6>
-                        {project.images.map((value, index) => {
+                        {project.images ? (<h6 className="font-weight-bold">IMAGES</h6>) : <div></div>}
+
+                        {project.images ? project.images.map((value, index) => {
                           return (
                             <figure class="figure" key={index}>
                               <img
@@ -61,7 +66,7 @@ const Project = () => {
                               </figcaption>
                             </figure>
                           );
-                        })}
+                        }) : (<div></div>)}
                       </div>
                     </div>
                   </div>

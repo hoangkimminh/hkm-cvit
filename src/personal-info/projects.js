@@ -11,8 +11,20 @@ export default [
     ],
     images: [
       {
-        link: "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
-        title: "Con buom"
+        link: "https://i.imgur.com/QEAQ5Cr.png",
+        title: "Add a new word"
+      },
+      {
+        link: "https://i.imgur.com/NcCihDf.png",
+        title: "Translate online"
+      },
+      {
+        link: "https://i.imgur.com/tJjgypy.png",
+        title: "Lovely theme"
+      },
+      {
+        link: "https://i.imgur.com/jj0q7oh.png",
+        title: "Dark theme"
       }
     ]
   },
@@ -27,9 +39,26 @@ export default [
     ],
     images: [
       {
-        link: "https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg",
-        title: "Con buom"
+        link: "https://i.imgur.com/ghXOXON.png",
+        title: "Home page"
+      },
+      {
+        link: "https://i.imgur.com/m52aHCD.png",
+        title: "Game"
+      },
+      {
+        link: "https://i.imgur.com/wsXri9Y.png",
+        title: "Rank page"
       }
+    ]
+  },
+  {
+    name: "hkm-cvit",
+    link: "",
+    description:
+      "My online CV",
+    features: [
+      "Using React.js"
     ]
   }
 ];
