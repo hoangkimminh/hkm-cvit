@@ -1,6 +1,3 @@
-/*
-    DEMO STYLE
-*/
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
@@ -8,6 +5,10 @@
 
 body {
   font-family: 'Varela Round', sans-serif;
+}
+
+.rounded-border {
+  border-radius: 20px;
 }
 
 .container-fluid {
@@ -231,11 +232,6 @@ ul ul a {
 .intro-stage {
   font-size: 4rem;
   height: 43rem;
-}
-
-.ava-img {
-  width: 40rem;
-  height: 36rem;
 }
 
 
