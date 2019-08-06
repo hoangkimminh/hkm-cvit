@@ -13,7 +13,7 @@ const Profile = () => {
         <div className="col-12 col-lg-7 my-3">
           <h3 className="font-weight-bold">PROFILE</h3>
           <img
-            src="images/avatar.JPG"
+            src="https://i.imgur.com/UakjyfT.jpg"
             className="img-thumbnail rounded-border"
             alt="My avatar"
             style={{borderWidth: 0}}
