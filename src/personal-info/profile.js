@@ -7,5 +7,5 @@ export default {
   school:
     "Student at University of Engineering and Technology, Vietnam National University (VNU)",
   character: "Sociable, hardworking, studious, enthusiastic",
-  hobbies: "Learning technology, science, film, music, cooking,..."
+  hobbies: "Interested in technology, science, film, music, cooking,..."
 };
