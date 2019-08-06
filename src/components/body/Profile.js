@@ -27,37 +27,43 @@ const Profile = () => {
             style={{ listStyle: "none", fontSize: "1rem" }}
           >
             <li>
-              <span href="">
+              <span>
                 <i className="fa fa-calendar mr-4" aria-hidden="true" />
                 {profile.DOB}
               </span>
             </li>
             <li>
-              <span href="">
+              <span>
                 <i className="fa fa-phone mr-4" aria-hidden="true" />
                 {profile.phoneNumber}
               </span>
             </li>
             <li>
-              <span href="">
+              <span>
+                <i className="fa fa-envelope mr-4" aria-hidden="true" />
+                {profile.email}
+              </span>
+            </li>
+            <li>
+              <span>
                 <i className="fa fa-home mr-4" aria-hidden="true" />{" "}
                 {profile.address}
               </span>
             </li>
             <li>
-              <span href="">
+              <span>
                 <i className="fa fa-university mr-4" aria-hidden="true" />
                 {profile.school}
               </span>
             </li>
             <li>
-              <span href="">
+              <span>
                 <i className="fa fa-smile-o mr-4" aria-hidden="true" />{" "}
                 {profile.character}
               </span>
             </li>
             <li>
-              <span href="">
+              <span>
                 <i className="fa fa-star-half-o mr-4" aria-hidden="true" />
                 {profile.hobbies}
               </span>
