@@ -6,6 +6,8 @@ export default {
   address: "Minh Hiep 1 village, Minh Khai commune, Hoai Duc district, Hanoi city",
   school:
     "Student at University of Engineering and Technology, Vietnam National University (VNU)",
+  major: "Information Technology",
+  GPA: "GPA: 3.6",
   character: "Sociable, hardworking, studious, enthusiastic",
   hobbies: "Interested in technology, science, film, music, cooking,..."
 };

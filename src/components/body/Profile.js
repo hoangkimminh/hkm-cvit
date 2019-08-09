@@ -16,7 +16,7 @@ const Profile = () => {
             src="https://i.imgur.com/UakjyfT.jpg"
             className="img-thumbnail rounded-border"
             alt="My avatar"
-            style={{borderWidth: 0}}
+            style={{ borderWidth: 0 }}
           />
         </div>
         <div className="col-12 col-lg-5 my-4 border-left">
@@ -58,6 +58,18 @@ const Profile = () => {
             </li>
             <li>
               <span>
+                <i class="fa fa-graduation-cap mr-4" aria-hidden="true"></i>
+                {profile.major}
+              </span>
+            </li>
+            <li>
+              <span>
+                <i class="fa fa-book mr-4" aria-hidden="true"></i>
+                {profile.GPA}
+              </span>
+            </li>
+            <li>
+              <span>
                 <i className="fa fa-smile-o mr-4" aria-hidden="true" />{" "}
                 {profile.character}
               </span>
@@ -69,6 +81,17 @@ const Profile = () => {
               </span>
             </li>
           </ul>
+          <div className="text-center" style={{ fontSize: "3.5em", color: "Tomato" }}>
+            <span className="mr-3">
+              <a href="https://www.facebook.com/hkm0312" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>
+            </span>
+            <span className="mr-3">
+              <a href="https://twitter.com/hkm0312" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            </span>
+            <span>
+              <a href="https://www.instagram.com/hkm.03.12/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </span>
+          </div>
         </div>
       </div>
     </div>
