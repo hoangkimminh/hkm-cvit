@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class ProgressBar extends Component {
   constructor(props) {
@@ -9,11 +9,18 @@ class ProgressBar extends Component {
   }
   render() {
     return (
-      <div className="my-3">
+      <div className='my-3'>
         <span>{this.props.content}</span>
-        <div className="progress rounded-pill">
-          <div className="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{ "maxWidth": this.state.percentage + "%" }}>
-            <span className="title">{this.state.percentage + "%"}</span>
+        <div className='progress rounded-pill'>
+          <div
+            className='progress-bar'
+            role='progressbar'
+            aria-valuenow='60'
+            aria-valuemin='0'
+            aria-valuemax='100'
+            style={{ maxWidth: this.state.percentage + '%' }}
+          >
+            <span className='title'>{this.state.percentage + '%'}</span>
           </div>
         </div>
       </div>
@@ -21,5 +28,4 @@ class ProgressBar extends Component {
   }
 }
 
-
-export default ProgressBar;
+export default ProgressBar
